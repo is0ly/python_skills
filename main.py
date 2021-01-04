@@ -1,4 +1,4 @@
-from math_operations import multiply_by_two
+import operations.functions
 
-print(multiply_by_two(99, 4, 67, 456, 55))
+print(operations.functions.multiply_by_two(99, 4, 67, 456, 55))
 
