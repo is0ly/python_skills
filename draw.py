@@ -1,11 +1,11 @@
 import simple_draw as sd
 
 
-sd.resolution = (1200, 600)
+sd.resolution = (1200, 650)
 
 
 def bubble(point, step):
-    radius = 40
+    radius = 30
     for _ in range(5):
         radius += step
         sd.circle(point, radius)
